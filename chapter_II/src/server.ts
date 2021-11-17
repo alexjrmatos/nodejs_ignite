@@ -7,6 +7,4 @@ app.use("/categories", categoriesRoutes);
 
 const port = 3333;
 
-
-
 app.listen(port, () => console.log(`Server runnning at ${port}`));
